@@ -25,8 +25,8 @@ public class RegistrationSteps {
 
     @BeforeAll
     public static void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Users/bekturyusupov/" +
-                "IdeaProjects/Drivers/chrome-mac-123/chromedriver");
+        /*System.setProperty("webdriver.chrome.driver", "/Users/bekturyusupov/" +
+                "IdeaProjects/Drivers/chrome-mac-123/chromedriver");*/
     }
 
     @Given("User navigates to Digital Bank signup page")

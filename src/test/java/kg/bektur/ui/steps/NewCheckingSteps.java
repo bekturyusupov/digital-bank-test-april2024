@@ -25,8 +25,8 @@ public class NewCheckingSteps {
 
     @BeforeAll
     public static void setUp() {
-        System.setProperty("webdriver.chrome.driver", "/Users/bekturyusupov/" +
-                "IdeaProjects/Drivers/chrome-mac-123/chromedriver");
+        /*System.setProperty("webdriver.chrome.driver", "/Users/bekturyusupov/" +
+                "IdeaProjects/Drivers/chrome-mac-123/chromedriver");*/
     }
 
     @Given("the user logged in as {string} with a password {string}")
