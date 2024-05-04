@@ -5,6 +5,7 @@ Feature: Digital Bank Registration Page
     Given User with "elon_mail@gmail.com" is not in DB
     And User navigates to Digital Bank signup page
 
+  @Test
   Scenario: Positive Case. As a user, I want to successfully create Digital Bank Account
     When User creates account with following fields
       | title | firstName | lastName | gender | dob        | ssn         | email               | password  | address     | locality | region | postalCode | country | homePhone  | mobilePhone | workPhone  | termsCheckBox |
